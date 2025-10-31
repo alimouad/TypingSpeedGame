@@ -102,3 +102,15 @@ h2 {
     /* display: ; */
     box-shadow: 5px 5px 5px rgba(255,255,255,0.6);
 }
+.replay{
+    padding: 12px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #bd8db8;
+    color: #fff;
+    font-size: .9rem;
+    font-family: 'poppins';
+    border-radius: 12px;
+    outline: none;
+    border: none;
+}
