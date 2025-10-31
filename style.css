@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400;1,600;1,700&family=Rubik:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    backdrop-filter: blur(10px);
+    background: url('/images.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    text-align: center;
+}
+h2 {
+    margin: 22px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details p{
+    font-size: 0.7rem;
+}
+.details {
+    margin: 23px 0;
+    background-color: #ddd;
+    padding: 22px;
+    border-radius: 22px;
+}
+
+.wrapper{
+    width: 600px;
+    margin: 0 auto;
+    padding: 22px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    /* box-shadow: 2px 3px 3px rgba(255, 255, 255, 0.5); */
+}
+.content{
+    width: 100%;
+    padding: 22px;
+    border: 2px solid #ddd;
+}
+.content p {
+    font-size: 0.9rem;
+}
+.content p span.correct{
+    color: rgb(20, 245, 20);
+}
+
+.content p span.incorrect{
+    color: rgb(226, 23, 23);
+}
+
+.textInput{
+    width: 100%;
+    padding: 12px;
+    font-family: 'poppins';
+    color: #000;
+    margin-top: 12px ;
+    background-color: #ddd;
+    border: 2px solid #000;
+    border-radius: 12px;
+    outline: none;
+}
+
+.layerGround{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(120 118 118 / 60%);
+    width: 100%;
+    height: 100%;
+    z-index: 34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.popUpMsg {
+    z-index: 233;
+    background-color: #fff;
+    padding: 22px;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    justify-content: center;
+    /* display: ; */
+    box-shadow: 5px 5px 5px rgba(255,255,255,0.6);
+}
